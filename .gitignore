@@ -1,0 +1,4 @@
+.idea
+venv
+config/*/env.yaml.dist
+.pytest_cache

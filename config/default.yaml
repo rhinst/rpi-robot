@@ -1,0 +1,34 @@
+logging:
+  version: 1
+  formatters:
+    verbose:
+      format: "%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s"
+    simple:
+      format: "%(levelname)s %(message)s"
+  handlers:
+    file:
+      level: "DEBUG"
+      class: "logging.FileHandler"
+      filename: "logfile.txt"
+      formatter: "verbose"
+    console:
+      level: "INFO"
+      class: "logging.StreamHandler"
+      formatter: "simple"
+  loggers:
+    robot:
+      level: "DEBUG"
+      handlers:
+        - file
+        - console
+redis:
+  host: "localhost"
+  port: 6379
+plugins:
+  listening:
+    engine:
+      name: "sphinx"
+      options:
+        language: "en-US"
+    microphone:
+      device_name: "default"
