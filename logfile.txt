@@ -2577,3 +2577,32 @@ DEBUG 2020-12-22 14:44:34,937 plugin 15160 9772 Timed out waiting for speech inp
 DEBUG 2020-12-22 14:44:34,938 plugin 15160 9772 Listening for words
 DEBUG 2020-12-22 14:44:39,702 plugin 15160 9772 Unrecognized audio
 DEBUG 2020-12-22 14:44:39,702 plugin 15160 9772 Listening for words
+INFO 2020-12-26 08:26:13,912 logging 4952 24680 Logger initialized
+INFO 2020-12-26 08:26:13,912 __main__ 4952 24680 Starting API
+INFO 2020-12-26 08:28:59,802 logging 10748 23904 Logger initialized
+INFO 2020-12-26 08:28:59,802 __main__ 10748 23904 Starting API
+INFO 2020-12-26 08:29:24,802 logging 22476 27128 Logger initialized
+INFO 2020-12-26 08:29:24,802 __main__ 22476 27128 Starting API
+INFO 2020-12-26 08:29:46,189 logging 28212 23268 Logger initialized
+INFO 2020-12-26 08:29:46,189 __main__ 28212 23268 Starting API
+INFO 2020-12-26 08:29:46,190 __main__ 28212 23268 Starting CLI
+INFO 2020-12-26 08:29:46,190 __main__ 28212 23268 Starting Voice Controller
+INFO 2020-12-26 08:29:48,782 logging 20332 14148 Logger initialized
+INFO 2020-12-26 08:29:48,782 __main__ 20332 14148 Starting API
+INFO 2020-12-26 08:29:48,783 __main__ 20332 14148 Starting CLI
+INFO 2020-12-26 08:29:48,783 __main__ 20332 14148 Starting Voice Controller
+INFO 2020-12-26 08:33:00,108 logging 12848 21628 Logger initialized
+INFO 2020-12-26 08:33:00,108 __main__ 12848 21628 Starting API
+INFO 2020-12-26 08:33:00,109 __main__ 12848 21628 Starting CLI
+INFO 2020-12-26 08:33:36,389 logging 27556 16488 Logger initialized
+INFO 2020-12-26 08:33:36,389 __main__ 27556 16488 Starting API
+INFO 2020-12-26 08:33:36,390 __main__ 27556 16488 Starting Voice Controller
+INFO 2020-12-26 08:33:36,390 __main__ 27556 16488 Starting CLI
+INFO 2020-12-26 08:36:08,348 logging 7636 13356 Logger initialized
+INFO 2020-12-26 08:36:08,348 __main__ 7636 13356 Starting API
+INFO 2020-12-26 08:36:08,349 __main__ 7636 13356 Starting Voice Controller
+INFO 2020-12-26 08:36:08,349 __main__ 7636 13356 Starting CLI
+INFO 2020-12-26 08:36:49,861 logging 14772 9336 Logger initialized
+INFO 2020-12-26 08:36:49,861 __main__ 14772 9336 Starting API
+INFO 2020-12-26 08:36:49,862 __main__ 14772 9336 Starting Voice Controller
+INFO 2020-12-26 08:36:49,862 __main__ 14772 9336 Starting CLI

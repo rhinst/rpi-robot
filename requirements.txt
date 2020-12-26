@@ -1,3 +1,4 @@
+redis
 himl
 SpeechRecognition
 google-api-python-client
