@@ -2606,3 +2606,394 @@ INFO 2020-12-26 08:36:49,861 logging 14772 9336 Logger initialized
 INFO 2020-12-26 08:36:49,861 __main__ 14772 9336 Starting API
 INFO 2020-12-26 08:36:49,862 __main__ 14772 9336 Starting Voice Controller
 INFO 2020-12-26 08:36:49,862 __main__ 14772 9336 Starting CLI
+INFO 2020-12-27 10:31:09,934 logging 16772 17176 Logger initialized
+INFO 2020-12-27 10:31:09,934 __main__ 16772 17176 Starting API
+INFO 2020-12-27 10:31:09,934 __main__ 16772 17176 Starting Voice Controller
+INFO 2020-12-27 10:31:09,935 __main__ 16772 17176 Starting CLI
+DEBUG 2020-12-27 10:31:18,516 controller 16772 17176 Received command from CLI: 'say'
+INFO 2020-12-27 10:43:50,653 logging 6224 18388 Logger initialized
+INFO 2020-12-27 10:43:50,654 __main__ 6224 18388 Starting API
+INFO 2020-12-27 10:43:50,656 __main__ 6224 18388 Starting Voice Controller
+INFO 2020-12-27 10:43:50,657 __main__ 6224 18388 Starting CLI
+INFO 2020-12-27 10:44:45,742 logging 8124 14732 Logger initialized
+INFO 2020-12-27 10:44:45,743 __main__ 8124 14732 Starting API
+INFO 2020-12-27 10:44:45,744 __main__ 8124 14732 Starting Voice Controller
+INFO 2020-12-27 10:44:45,746 __main__ 8124 14732 Starting CLI
+INFO 2020-12-27 10:45:08,036 logging 3160 14968 Logger initialized
+INFO 2020-12-27 10:45:08,036 __main__ 3160 14968 Starting API
+INFO 2020-12-27 10:45:08,038 __main__ 3160 14968 Starting Voice Controller
+INFO 2020-12-27 10:45:08,039 __main__ 3160 14968 Starting CLI
+DEBUG 2020-12-27 10:45:16,864 controller 3160 14968 Received command from CLI: 'say'
+INFO 2020-12-27 10:45:54,449 logging 1520 17344 Logger initialized
+INFO 2020-12-27 10:45:54,450 __main__ 1520 17344 Starting API
+INFO 2020-12-27 10:45:54,452 __main__ 1520 17344 Starting Voice Controller
+INFO 2020-12-27 10:45:54,453 __main__ 1520 17344 Starting CLI
+INFO 2020-12-27 11:00:03,186 logging 10076 11740 Logger initialized
+INFO 2020-12-27 11:00:03,186 __main__ 10076 11740 Starting API
+INFO 2020-12-27 11:00:17,221 logging 17420 3228 Logger initialized
+INFO 2020-12-27 11:00:17,221 __main__ 17420 3228 Starting API
+INFO 2020-12-27 11:00:17,222 __main__ 17420 3228 Starting Voice Controller
+INFO 2020-12-27 11:00:17,222 __main__ 17420 3228 Starting CLI
+DEBUG 2020-12-27 11:00:21,641 controller 17420 3228 Received command from CLI: 'say'
+INFO 2020-12-27 11:03:11,868 logging 11224 7700 Logger initialized
+INFO 2020-12-27 11:03:11,868 __main__ 11224 7700 Starting API
+INFO 2020-12-27 11:03:11,869 __main__ 11224 7700 Starting Voice Controller
+INFO 2020-12-27 11:03:11,869 __main__ 11224 7700 Starting CLI
+DEBUG 2020-12-27 11:03:15,650 controller 11224 7700 Received command from CLI: 'say'
+INFO 2020-12-27 11:03:41,204 logging 5180 12456 Logger initialized
+INFO 2020-12-27 11:03:41,205 __main__ 5180 12456 Starting API
+INFO 2020-12-27 11:03:41,207 __main__ 5180 12456 Starting Voice Controller
+INFO 2020-12-27 11:03:41,208 __main__ 5180 12456 Starting CLI
+DEBUG 2020-12-27 11:03:53,730 controller 5180 12456 Received command from CLI: 'say'
+INFO 2020-12-27 11:04:25,459 logging 13816 15532 Logger initialized
+INFO 2020-12-27 11:04:25,459 __main__ 13816 15532 Starting API
+INFO 2020-12-27 11:04:25,461 __main__ 13816 15532 Starting Voice Controller
+INFO 2020-12-27 11:04:25,462 __main__ 13816 15532 Starting CLI
+DEBUG 2020-12-27 11:04:44,250 controller 13816 15532 Received command from CLI: 'say'
+INFO 2020-12-27 11:06:13,894 logging 7064 15404 Logger initialized
+INFO 2020-12-27 11:06:13,894 __main__ 7064 15404 Starting Subsystems
+INFO 2020-12-27 11:06:57,062 logging 17292 14204 Logger initialized
+INFO 2020-12-27 11:06:57,063 __main__ 17292 14204 Starting Subsystems
+INFO 2020-12-27 11:07:17,428 logging 15180 5248 Logger initialized
+INFO 2020-12-27 11:07:17,428 __main__ 15180 5248 Starting Subsystems
+INFO 2020-12-27 11:07:17,429 __main__ 15180 5248 Starting API
+INFO 2020-12-27 11:07:17,429 __main__ 15180 5248 Starting Voice Controller
+INFO 2020-12-27 11:07:17,429 __main__ 15180 5248 Starting CLI
+INFO 2020-12-27 11:09:24,367 logging 12956 15516 Logger initialized
+INFO 2020-12-27 11:09:24,367 __main__ 12956 15516 Starting Subsystems
+INFO 2020-12-27 11:09:24,374 __main__ 12956 15516 Starting API
+INFO 2020-12-27 11:09:24,375 __main__ 12956 15516 Starting Voice Controller
+INFO 2020-12-27 11:09:24,375 __main__ 12956 15516 Starting CLI
+INFO 2020-12-27 11:10:35,869 logging 15888 12016 Logger initialized
+INFO 2020-12-27 11:10:35,869 __main__ 15888 12016 Starting Subsystems
+INFO 2020-12-27 11:10:35,876 __main__ 15888 12016 Starting API
+INFO 2020-12-27 11:10:35,877 __main__ 15888 12016 Starting Voice Controller
+INFO 2020-12-27 11:10:35,877 __main__ 15888 12016 Starting CLI
+INFO 2020-12-27 11:10:45,558 logging 16632 7744 Logger initialized
+INFO 2020-12-27 11:10:45,559 __main__ 16632 7744 Starting Subsystems
+INFO 2020-12-27 11:10:45,566 __main__ 16632 7744 Starting API
+INFO 2020-12-27 11:10:45,568 __main__ 16632 7744 Starting Voice Controller
+INFO 2020-12-27 11:10:45,569 __main__ 16632 7744 Starting CLI
+INFO 2020-12-27 11:11:17,204 logging 2988 3116 Logger initialized
+INFO 2020-12-27 11:11:17,204 __main__ 2988 3116 Starting Subsystems
+INFO 2020-12-27 11:11:17,212 __main__ 2988 3116 Starting API
+INFO 2020-12-27 11:11:17,213 __main__ 2988 3116 Starting Voice Controller
+INFO 2020-12-27 11:11:17,214 __main__ 2988 3116 Starting CLI
+INFO 2020-12-27 11:11:28,644 logging 5868 16156 Logger initialized
+INFO 2020-12-27 11:11:28,645 __main__ 5868 16156 Starting Subsystems
+INFO 2020-12-27 11:11:28,652 __main__ 5868 16156 Starting API
+INFO 2020-12-27 11:11:28,654 __main__ 5868 16156 Starting Voice Controller
+INFO 2020-12-27 11:11:28,655 __main__ 5868 16156 Starting CLI
+INFO 2020-12-27 11:12:23,474 logging 6180 2620 Logger initialized
+INFO 2020-12-27 11:12:23,474 __main__ 6180 2620 Starting Subsystems
+INFO 2020-12-27 11:12:23,481 __main__ 6180 2620 Starting API
+INFO 2020-12-27 11:12:23,482 __main__ 6180 2620 Starting Voice Controller
+INFO 2020-12-27 11:12:23,482 __main__ 6180 2620 Starting CLI
+DEBUG 2020-12-27 11:12:27,958 controller 6180 2620 Received command from CLI: 'say'
+INFO 2020-12-27 11:12:45,379 logging 14668 2688 Logger initialized
+INFO 2020-12-27 11:12:45,379 __main__ 14668 2688 Starting Subsystems
+INFO 2020-12-27 11:12:45,386 __main__ 14668 2688 Starting API
+INFO 2020-12-27 11:12:45,386 __main__ 14668 2688 Starting Voice Controller
+INFO 2020-12-27 11:12:45,387 __main__ 14668 2688 Starting CLI
+DEBUG 2020-12-27 11:12:48,327 controller 14668 2688 Received command from CLI: 'say'
+INFO 2020-12-27 11:14:04,615 logging 1960 3224 Logger initialized
+INFO 2020-12-27 11:14:04,615 __main__ 1960 3224 Starting Subsystems
+INFO 2020-12-27 11:14:04,622 __main__ 1960 3224 Starting API
+INFO 2020-12-27 11:14:04,622 __main__ 1960 3224 Starting Voice Controller
+INFO 2020-12-27 11:14:04,623 __main__ 1960 3224 Starting CLI
+DEBUG 2020-12-27 11:14:11,320 controller 1960 3224 Received command from CLI: 'say'
+INFO 2020-12-27 11:14:20,660 logging 5192 16364 Logger initialized
+INFO 2020-12-27 11:14:20,661 __main__ 5192 16364 Starting Subsystems
+INFO 2020-12-27 11:14:20,668 __main__ 5192 16364 Starting API
+INFO 2020-12-27 11:14:20,670 __main__ 5192 16364 Starting Voice Controller
+INFO 2020-12-27 11:14:20,671 __main__ 5192 16364 Starting CLI
+DEBUG 2020-12-27 11:14:40,115 controller 5192 16364 Received command from CLI: 'say'
+INFO 2020-12-27 11:14:52,789 logging 9220 11004 Logger initialized
+INFO 2020-12-27 11:14:52,790 __main__ 9220 11004 Starting Subsystems
+INFO 2020-12-27 11:14:52,798 __main__ 9220 11004 Starting API
+INFO 2020-12-27 11:14:52,799 __main__ 9220 11004 Starting Voice Controller
+INFO 2020-12-27 11:14:52,800 __main__ 9220 11004 Starting CLI
+DEBUG 2020-12-27 11:14:56,355 controller 9220 11004 Received command from CLI: 'say'
+INFO 2020-12-27 11:16:15,062 logging 7568 16956 Logger initialized
+INFO 2020-12-27 11:16:15,062 __main__ 7568 16956 Starting Subsystems
+INFO 2020-12-27 11:16:15,070 __main__ 7568 16956 Starting API
+INFO 2020-12-27 11:16:15,071 __main__ 7568 16956 Starting Voice Controller
+INFO 2020-12-27 11:16:15,072 __main__ 7568 16956 Starting CLI
+DEBUG 2020-12-27 11:16:18,165 controller 7568 16956 Received command from CLI: 'say'
+INFO 2020-12-27 11:16:31,168 logging 8896 10176 Logger initialized
+INFO 2020-12-27 11:16:31,169 __main__ 8896 10176 Starting Subsystems
+INFO 2020-12-27 11:16:31,177 __main__ 8896 10176 Starting API
+INFO 2020-12-27 11:16:31,178 __main__ 8896 10176 Starting Voice Controller
+INFO 2020-12-27 11:16:31,179 __main__ 8896 10176 Starting CLI
+DEBUG 2020-12-27 11:16:33,957 controller 8896 10176 Received command from CLI: 'say'
+INFO 2020-12-27 11:17:10,630 logging 6676 2880 Logger initialized
+INFO 2020-12-27 11:17:10,631 __main__ 6676 2880 Starting Subsystems
+INFO 2020-12-27 11:17:10,638 __main__ 6676 2880 Starting API
+INFO 2020-12-27 11:17:10,640 __main__ 6676 2880 Starting Voice Controller
+INFO 2020-12-27 11:17:10,641 __main__ 6676 2880 Starting CLI
+DEBUG 2020-12-27 11:17:13,375 controller 6676 2880 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:17:52,375 talker 6676 15400 Saying 'hello'
+DEBUG 2020-12-27 11:18:24,628 talker 6676 15400 Saying 'hello'
+INFO 2020-12-27 11:24:04,848 logging 7292 7056 Logger initialized
+INFO 2020-12-27 11:24:04,848 __main__ 7292 7056 Starting Subsystems
+INFO 2020-12-27 11:24:04,855 __main__ 7292 7056 Starting API
+INFO 2020-12-27 11:24:04,855 __main__ 7292 7056 Starting Voice Controller
+INFO 2020-12-27 11:24:04,856 __main__ 7292 7056 Starting CLI
+DEBUG 2020-12-27 11:24:07,943 controller 7292 7056 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:24:07,946 talker 7292 16192 Saying 'hello'
+INFO 2020-12-27 11:24:24,955 logging 14328 10424 Logger initialized
+INFO 2020-12-27 11:24:24,956 __main__ 14328 10424 Starting Subsystems
+INFO 2020-12-27 11:24:24,963 __main__ 14328 10424 Starting API
+INFO 2020-12-27 11:24:24,964 __main__ 14328 10424 Starting Voice Controller
+INFO 2020-12-27 11:24:24,966 __main__ 14328 10424 Starting CLI
+DEBUG 2020-12-27 11:24:27,576 controller 14328 10424 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:24:35,842 talker 14328 3656 Saying 'hello'
+INFO 2020-12-27 11:37:24,950 logging 9052 13232 Logger initialized
+INFO 2020-12-27 11:37:24,950 __main__ 9052 13232 Starting Subsystems
+INFO 2020-12-27 11:37:24,956 __main__ 9052 13232 Starting API
+INFO 2020-12-27 11:37:24,957 __main__ 9052 13232 Starting Voice Controller
+INFO 2020-12-27 11:37:24,957 __main__ 9052 13232 Starting CLI
+DEBUG 2020-12-27 11:37:28,490 controller 9052 13232 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:37:28,493 talker 9052 15780 Saying 'hello'
+INFO 2020-12-27 11:38:58,657 logging 18172 6984 Logger initialized
+INFO 2020-12-27 11:38:58,658 __main__ 18172 6984 Starting Subsystems
+INFO 2020-12-27 11:38:58,663 __main__ 18172 6984 Starting API
+INFO 2020-12-27 11:38:58,664 __main__ 18172 6984 Starting Voice Controller
+INFO 2020-12-27 11:38:58,664 __main__ 18172 6984 Starting CLI
+INFO 2020-12-27 11:40:22,646 logging 16876 17200 Logger initialized
+INFO 2020-12-27 11:40:22,646 __main__ 16876 17200 Starting Subsystems
+INFO 2020-12-27 11:40:22,651 __main__ 16876 17200 Starting API
+INFO 2020-12-27 11:40:22,652 __main__ 16876 17200 Starting Voice Controller
+INFO 2020-12-27 11:40:22,652 __main__ 16876 17200 Starting CLI
+DEBUG 2020-12-27 11:40:25,724 controller 16876 17200 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:40:25,728 talker 16876 13628 Saying 'hello'
+INFO 2020-12-27 11:41:37,687 logging 1264 14664 Logger initialized
+INFO 2020-12-27 11:41:37,687 __main__ 1264 14664 Starting Subsystems
+INFO 2020-12-27 11:41:37,694 __main__ 1264 14664 Starting API
+INFO 2020-12-27 11:41:37,695 __main__ 1264 14664 Starting Voice Controller
+INFO 2020-12-27 11:41:37,696 __main__ 1264 14664 Starting CLI
+DEBUG 2020-12-27 11:41:55,502 controller 1264 14664 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:41:55,505 talker 1264 8900 Saying 'hello'
+INFO 2020-12-27 11:50:18,356 logging 13152 1388 Logger initialized
+INFO 2020-12-27 11:50:18,356 __main__ 13152 1388 Starting Subsystems
+INFO 2020-12-27 11:50:18,363 __main__ 13152 1388 Starting API
+INFO 2020-12-27 11:50:18,363 __main__ 13152 1388 Starting Voice Controller
+INFO 2020-12-27 11:50:18,364 __main__ 13152 1388 Starting CLI
+DEBUG 2020-12-27 11:50:21,615 controller 13152 1388 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:50:21,617 talker 13152 14384 Saying 'hello'
+INFO 2020-12-27 11:51:24,238 logging 17992 13320 Logger initialized
+INFO 2020-12-27 11:51:24,238 __main__ 17992 13320 Starting Subsystems
+INFO 2020-12-27 11:51:24,244 __main__ 17992 13320 Starting API
+INFO 2020-12-27 11:51:24,244 __main__ 17992 13320 Starting Voice Controller
+INFO 2020-12-27 11:51:24,245 __main__ 17992 13320 Starting CLI
+DEBUG 2020-12-27 11:51:27,926 controller 17992 13320 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:51:27,929 talker 17992 7780 Saying 'hello'
+INFO 2020-12-27 11:51:42,668 logging 1160 12112 Logger initialized
+INFO 2020-12-27 11:51:42,668 __main__ 1160 12112 Starting Subsystems
+INFO 2020-12-27 11:51:42,675 __main__ 1160 12112 Starting API
+INFO 2020-12-27 11:51:42,675 __main__ 1160 12112 Starting Voice Controller
+INFO 2020-12-27 11:51:42,675 __main__ 1160 12112 Starting CLI
+DEBUG 2020-12-27 11:51:49,438 controller 1160 12112 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:51:49,442 talker 1160 3900 Saying 'hello'
+INFO 2020-12-27 11:51:58,072 logging 2612 7928 Logger initialized
+INFO 2020-12-27 11:51:58,072 __main__ 2612 7928 Starting Subsystems
+INFO 2020-12-27 11:51:58,080 __main__ 2612 7928 Starting API
+INFO 2020-12-27 11:51:58,081 __main__ 2612 7928 Starting Voice Controller
+INFO 2020-12-27 11:51:58,082 __main__ 2612 7928 Starting CLI
+DEBUG 2020-12-27 11:52:03,071 controller 2612 7928 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:52:05,876 talker 2612 17912 Saying 'hello'
+INFO 2020-12-27 11:53:47,737 logging 16936 13108 Logger initialized
+INFO 2020-12-27 11:53:47,737 __main__ 16936 13108 Starting Subsystems
+INFO 2020-12-27 11:53:47,745 __main__ 16936 13108 Starting API
+INFO 2020-12-27 11:53:47,746 __main__ 16936 13108 Starting Voice Controller
+INFO 2020-12-27 11:53:47,747 __main__ 16936 13108 Starting CLI
+DEBUG 2020-12-27 11:53:51,350 controller 16936 13108 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:53:53,763 talker 16936 11296 Saying 'hello'
+INFO 2020-12-27 11:54:10,525 logging 10908 16480 Logger initialized
+INFO 2020-12-27 11:54:10,525 __main__ 10908 16480 Starting Subsystems
+INFO 2020-12-27 11:54:10,532 __main__ 10908 16480 Starting API
+INFO 2020-12-27 11:54:10,532 __main__ 10908 16480 Starting Voice Controller
+INFO 2020-12-27 11:54:10,533 __main__ 10908 16480 Starting CLI
+DEBUG 2020-12-27 11:54:14,191 controller 10908 16480 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:54:14,195 talker 10908 15504 Saying 'hello'
+INFO 2020-12-27 11:54:39,286 logging 11172 15184 Logger initialized
+INFO 2020-12-27 11:54:39,286 __main__ 11172 15184 Starting Subsystems
+INFO 2020-12-27 11:54:39,293 __main__ 11172 15184 Starting API
+INFO 2020-12-27 11:54:39,293 __main__ 11172 15184 Starting Voice Controller
+INFO 2020-12-27 11:54:39,293 __main__ 11172 15184 Starting CLI
+DEBUG 2020-12-27 11:54:48,599 controller 11172 15184 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:54:48,601 talker 11172 13564 Saying 'hello'
+INFO 2020-12-27 11:55:37,159 logging 13912 18004 Logger initialized
+INFO 2020-12-27 11:55:37,159 __main__ 13912 18004 Starting Subsystems
+INFO 2020-12-27 11:55:37,166 __main__ 13912 18004 Starting API
+INFO 2020-12-27 11:55:37,166 __main__ 13912 18004 Starting Voice Controller
+INFO 2020-12-27 11:55:37,166 __main__ 13912 18004 Starting CLI
+DEBUG 2020-12-27 11:55:44,574 controller 13912 18004 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:55:44,576 talker 13912 7760 Saying 'suckit'
+INFO 2020-12-27 11:55:57,678 logging 3556 8312 Logger initialized
+INFO 2020-12-27 11:55:57,678 __main__ 3556 8312 Starting Subsystems
+INFO 2020-12-27 11:55:57,685 __main__ 3556 8312 Starting API
+INFO 2020-12-27 11:55:57,685 __main__ 3556 8312 Starting Voice Controller
+INFO 2020-12-27 11:55:57,686 __main__ 3556 8312 Starting CLI
+DEBUG 2020-12-27 11:56:02,286 controller 3556 8312 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:56:02,289 talker 3556 12068 Saying 'bbutts'
+INFO 2020-12-27 11:58:07,171 logging 9244 19348 Logger initialized
+INFO 2020-12-27 11:58:07,171 __main__ 9244 19348 Starting Subsystems
+INFO 2020-12-27 11:58:07,178 __main__ 9244 19348 Starting API
+INFO 2020-12-27 11:58:07,178 __main__ 9244 19348 Starting Voice Controller
+INFO 2020-12-27 11:58:07,179 __main__ 9244 19348 Starting CLI
+DEBUG 2020-12-27 11:58:15,622 controller 9244 19348 Received command from CLI: 'say'
+DEBUG 2020-12-27 11:58:15,625 talker 9244 17136 Saying 'heyfuckyou'
+INFO 2020-12-27 12:00:06,340 logging 17672 3588 Logger initialized
+INFO 2020-12-27 12:00:06,340 __main__ 17672 3588 Starting Subsystems
+INFO 2020-12-27 12:00:06,347 __main__ 17672 3588 Starting API
+INFO 2020-12-27 12:00:06,347 __main__ 17672 3588 Starting Voice Controller
+INFO 2020-12-27 12:00:06,347 __main__ 17672 3588 Starting CLI
+DEBUG 2020-12-27 12:00:09,829 controller 17672 3588 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:00:09,833 talker 17672 14000 Saying 'heyfuckyou'
+INFO 2020-12-27 12:00:34,763 logging 15140 3360 Logger initialized
+INFO 2020-12-27 12:00:34,763 __main__ 15140 3360 Starting Subsystems
+INFO 2020-12-27 12:00:34,770 __main__ 15140 3360 Starting API
+INFO 2020-12-27 12:00:34,770 __main__ 15140 3360 Starting Voice Controller
+INFO 2020-12-27 12:00:34,771 __main__ 15140 3360 Starting CLI
+DEBUG 2020-12-27 12:00:39,071 controller 15140 3360 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:00:39,073 talker 15140 9384 Saying 'ohshit'
+INFO 2020-12-27 12:03:07,014 logging 18516 2376 Logger initialized
+INFO 2020-12-27 12:03:07,014 __main__ 18516 2376 Starting Subsystems
+INFO 2020-12-27 12:03:07,020 __main__ 18516 2376 Starting API
+INFO 2020-12-27 12:03:07,021 __main__ 18516 2376 Starting Voice Controller
+INFO 2020-12-27 12:03:07,021 __main__ 18516 2376 Starting CLI
+DEBUG 2020-12-27 12:03:12,028 controller 18516 2376 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:03:12,031 talker 18516 16808 Saying 'blah'
+INFO 2020-12-27 12:06:16,394 logging 12400 14716 Logger initialized
+INFO 2020-12-27 12:06:16,394 __main__ 12400 14716 Starting Subsystems
+INFO 2020-12-27 12:06:16,402 __main__ 12400 14716 Starting API
+INFO 2020-12-27 12:06:16,403 __main__ 12400 14716 Starting Voice Controller
+INFO 2020-12-27 12:06:16,404 __main__ 12400 14716 Starting CLI
+DEBUG 2020-12-27 12:06:25,555 controller 12400 14716 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:06:25,558 talker 12400 9816 Saying 'hello'
+INFO 2020-12-27 12:06:54,076 logging 12948 4044 Logger initialized
+INFO 2020-12-27 12:06:54,076 __main__ 12948 4044 Starting Subsystems
+INFO 2020-12-27 12:06:54,083 __main__ 12948 4044 Starting API
+INFO 2020-12-27 12:06:54,084 __main__ 12948 4044 Starting Voice Controller
+INFO 2020-12-27 12:06:54,084 __main__ 12948 4044 Starting CLI
+DEBUG 2020-12-27 12:06:56,203 controller 12948 4044 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:06:56,206 talker 12948 15564 Saying 'asdf'
+DEBUG 2020-12-27 12:07:17,498 controller 12948 4044 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:07:17,501 talker 12948 15564 Saying 'hello'
+INFO 2020-12-27 12:09:36,068 logging 13408 12692 Logger initialized
+INFO 2020-12-27 12:09:36,068 __main__ 13408 12692 Starting Subsystems
+INFO 2020-12-27 12:09:36,074 __main__ 13408 12692 Starting API
+INFO 2020-12-27 12:09:36,075 __main__ 13408 12692 Starting Voice Controller
+INFO 2020-12-27 12:09:36,075 __main__ 13408 12692 Starting CLI
+DEBUG 2020-12-27 12:09:38,721 controller 13408 12692 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:09:38,724 talker 13408 9624 Saying 'hello'
+INFO 2020-12-27 12:10:35,262 logging 17300 3744 Logger initialized
+INFO 2020-12-27 12:10:35,263 __main__ 17300 3744 Starting Subsystems
+INFO 2020-12-27 12:10:35,269 __main__ 17300 3744 Starting API
+INFO 2020-12-27 12:10:35,269 __main__ 17300 3744 Starting Voice Controller
+INFO 2020-12-27 12:10:35,270 __main__ 17300 3744 Starting CLI
+DEBUG 2020-12-27 12:10:38,465 controller 17300 3744 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:10:38,468 talker 17300 4136 Saying 'hello'
+INFO 2020-12-27 12:11:48,352 logging 3928 10028 Logger initialized
+INFO 2020-12-27 12:11:48,352 __main__ 3928 10028 Starting Subsystems
+INFO 2020-12-27 12:11:48,358 __main__ 3928 10028 Starting API
+INFO 2020-12-27 12:11:48,359 __main__ 3928 10028 Starting Voice Controller
+INFO 2020-12-27 12:11:48,359 __main__ 3928 10028 Starting CLI
+DEBUG 2020-12-27 12:11:51,655 controller 3928 10028 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:11:51,659 talker 3928 1812 Saying 'hello'
+INFO 2020-12-27 12:12:58,906 logging 1708 3552 Logger initialized
+INFO 2020-12-27 12:12:58,906 __main__ 1708 3552 Starting Subsystems
+INFO 2020-12-27 12:12:58,912 __main__ 1708 3552 Starting API
+INFO 2020-12-27 12:12:58,913 __main__ 1708 3552 Starting Voice Controller
+INFO 2020-12-27 12:12:58,913 __main__ 1708 3552 Starting CLI
+DEBUG 2020-12-27 12:13:01,991 controller 1708 3552 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:13:01,993 talker 1708 12732 Saying 'hello'
+INFO 2020-12-27 12:13:42,044 logging 13728 6556 Logger initialized
+INFO 2020-12-27 12:13:42,044 __main__ 13728 6556 Starting Subsystems
+INFO 2020-12-27 12:13:42,051 __main__ 13728 6556 Starting API
+INFO 2020-12-27 12:13:42,052 __main__ 13728 6556 Starting Voice Controller
+INFO 2020-12-27 12:13:42,052 __main__ 13728 6556 Starting CLI
+DEBUG 2020-12-27 12:13:44,343 controller 13728 6556 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:13:44,346 talker 13728 8428 Saying 'hello'
+INFO 2020-12-27 12:15:00,776 logging 3036 15564 Logger initialized
+INFO 2020-12-27 12:15:00,777 __main__ 3036 15564 Starting Subsystems
+INFO 2020-12-27 12:15:00,783 __main__ 3036 15564 Starting API
+INFO 2020-12-27 12:15:00,784 __main__ 3036 15564 Starting Voice Controller
+INFO 2020-12-27 12:15:00,784 __main__ 3036 15564 Starting CLI
+DEBUG 2020-12-27 12:15:02,934 controller 3036 15564 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:15:02,938 talker 3036 5240 Saying 'hello'
+INFO 2020-12-27 12:15:18,388 logging 8128 900 Logger initialized
+INFO 2020-12-27 12:15:18,388 __main__ 8128 900 Starting Subsystems
+INFO 2020-12-27 12:15:18,394 __main__ 8128 900 Starting API
+INFO 2020-12-27 12:15:18,395 __main__ 8128 900 Starting Voice Controller
+INFO 2020-12-27 12:15:18,395 __main__ 8128 900 Starting CLI
+DEBUG 2020-12-27 12:15:20,766 controller 8128 900 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:15:20,770 talker 8128 1272 Saying 'ehllo'
+INFO 2020-12-27 12:15:37,222 logging 15004 19356 Logger initialized
+INFO 2020-12-27 12:15:37,222 __main__ 15004 19356 Starting Subsystems
+INFO 2020-12-27 12:15:37,229 __main__ 15004 19356 Starting API
+INFO 2020-12-27 12:15:37,229 __main__ 15004 19356 Starting Voice Controller
+INFO 2020-12-27 12:15:37,229 __main__ 15004 19356 Starting CLI
+DEBUG 2020-12-27 12:15:39,334 controller 15004 19356 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:15:39,336 talker 15004 7048 Saying 'hello'
+INFO 2020-12-27 12:17:08,759 logging 16892 3124 Logger initialized
+INFO 2020-12-27 12:17:08,759 __main__ 16892 3124 Starting Subsystems
+INFO 2020-12-27 12:17:08,766 __main__ 16892 3124 Starting API
+INFO 2020-12-27 12:17:08,766 __main__ 16892 3124 Starting Voice Controller
+INFO 2020-12-27 12:17:08,766 __main__ 16892 3124 Starting CLI
+DEBUG 2020-12-27 12:17:13,133 controller 16892 3124 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:17:13,136 talker 16892 13796 Saying 'hello'
+INFO 2020-12-27 12:17:34,096 logging 16108 2908 Logger initialized
+INFO 2020-12-27 12:17:34,097 __main__ 16108 2908 Starting Subsystems
+INFO 2020-12-27 12:17:34,103 __main__ 16108 2908 Starting API
+INFO 2020-12-27 12:17:34,103 __main__ 16108 2908 Starting Voice Controller
+INFO 2020-12-27 12:17:34,104 __main__ 16108 2908 Starting CLI
+DEBUG 2020-12-27 12:17:37,316 controller 16108 2908 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:17:37,319 talker 16108 17608 Saying 'hello'
+INFO 2020-12-27 12:18:17,326 logging 4820 18108 Logger initialized
+INFO 2020-12-27 12:18:17,326 __main__ 4820 18108 Starting Subsystems
+INFO 2020-12-27 12:18:17,333 __main__ 4820 18108 Starting API
+INFO 2020-12-27 12:18:17,333 __main__ 4820 18108 Starting Voice Controller
+INFO 2020-12-27 12:18:17,334 __main__ 4820 18108 Starting CLI
+DEBUG 2020-12-27 12:18:19,612 controller 4820 18108 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:18:19,615 talker 4820 12216 Saying 'hell'
+INFO 2020-12-27 12:18:31,218 logging 14124 512 Logger initialized
+INFO 2020-12-27 12:18:31,218 __main__ 14124 512 Starting Subsystems
+INFO 2020-12-27 12:18:31,225 __main__ 14124 512 Starting API
+INFO 2020-12-27 12:18:31,225 __main__ 14124 512 Starting Voice Controller
+INFO 2020-12-27 12:18:31,226 __main__ 14124 512 Starting CLI
+DEBUG 2020-12-27 12:18:32,875 controller 14124 512 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:18:32,877 talker 14124 9784 Saying 'he'
+INFO 2020-12-27 12:18:46,844 logging 17364 13260 Logger initialized
+INFO 2020-12-27 12:18:46,844 __main__ 17364 13260 Starting Subsystems
+INFO 2020-12-27 12:18:46,851 __main__ 17364 13260 Starting API
+INFO 2020-12-27 12:18:46,851 __main__ 17364 13260 Starting Voice Controller
+INFO 2020-12-27 12:18:46,852 __main__ 17364 13260 Starting CLI
+DEBUG 2020-12-27 12:18:48,908 controller 17364 13260 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:18:48,911 talker 17364 3892 Saying 'butt'
+DEBUG 2020-12-27 12:18:52,155 controller 17364 13260 Received command from CLI: 'head'
+DEBUG 2020-12-27 12:18:54,251 controller 17364 13260 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:18:54,253 talker 17364 3892 Saying 'head'
+DEBUG 2020-12-27 12:18:55,915 controller 17364 13260 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:18:55,916 talker 17364 3892 Saying 'stop'
+DEBUG 2020-12-27 12:18:57,539 controller 17364 13260 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:18:57,540 talker 17364 3892 Saying 'oh'
+INFO 2020-12-27 12:20:50,881 logging 12664 13936 Logger initialized
+INFO 2020-12-27 12:20:50,882 __main__ 12664 13936 Starting Subsystems
+INFO 2020-12-27 12:20:50,888 __main__ 12664 13936 Starting API
+INFO 2020-12-27 12:20:50,889 __main__ 12664 13936 Starting Voice Controller
+INFO 2020-12-27 12:20:50,889 __main__ 12664 13936 Starting CLI
+DEBUG 2020-12-27 12:20:53,593 controller 12664 13936 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:20:53,595 talker 12664 2600 Saying 'hello rbo'
+DEBUG 2020-12-27 12:21:01,193 controller 12664 13936 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:21:01,196 talker 12664 2600 Saying 'hello rob, it's nice to meet you.'
+INFO 2020-12-27 12:27:30,063 logging 9716 5188 Logger initialized
+INFO 2020-12-27 12:27:30,063 __main__ 9716 5188 Starting Subsystems
+INFO 2020-12-27 12:27:30,071 __main__ 9716 5188 Starting API
+INFO 2020-12-27 12:27:30,072 __main__ 9716 5188 Starting Voice Controller
+INFO 2020-12-27 12:27:30,072 __main__ 9716 5188 Starting CLI
+DEBUG 2020-12-27 12:27:32,051 controller 9716 5188 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:27:32,053 talker 9716 3232 Saying 'hello'
+DEBUG 2020-12-27 12:27:34,483 controller 9716 5188 Received command from CLI: 'drive'
+DEBUG 2020-12-27 12:27:37,835 controller 9716 5188 Received command from CLI: 'stop'

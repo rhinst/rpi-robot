@@ -3,16 +3,18 @@ from time import sleep
 import speech_recognition as sr
 
 from app.logging import logger
+from app.subsystem import Subsystem
 from app.subsystem.listener.microphone import Microphone
 from app.subsystem.listener.engine import Engine
+from app.message_bus.connection import Connection
 
 
-class Listener:
+class Listener(Subsystem):
     mic: Microphone
     engine: Engine
 
-    def __init__(self, engine: Engine, microphone: Microphone):
-        super().__init__()
+    def __init__(self, message_bus: Connection, engine: Engine, microphone: Microphone):
+        super().__init__(message_bus)
         self.mic = microphone
         self.engine = engine
 

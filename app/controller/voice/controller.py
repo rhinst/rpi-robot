@@ -1,15 +1,15 @@
 from time import sleep
 from threading import Thread
 
-from app.message_bus import MessageBusConnection
+from app.message_bus import Connection
 
 
-class VoiceController(Thread, MessageBusConnection):
-    message_bus_connection: MessageBusConnection
+class VoiceController(Thread, Connection):
+    messge_bus: Connection
 
-    def __init__(self, message_bus_connection: MessageBusConnection):
+    def __init__(self, message_bus: Connection):
         super().__init__()
-        self.message_bus_connection = message_bus_connection
+        self.message_bus = message_bus
 
     def run(self):
         while True:

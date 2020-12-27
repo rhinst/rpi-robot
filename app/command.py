@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Callable
 from dataclasses import dataclass
 
 
@@ -13,3 +13,4 @@ class Argument:
 class Command:
     name: str
     arguments: List[Argument]
+    callback: Callable
