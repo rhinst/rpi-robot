@@ -2997,3 +2997,12 @@ DEBUG 2020-12-27 12:27:32,051 controller 9716 5188 Received command from CLI: 's
 DEBUG 2020-12-27 12:27:32,053 talker 9716 3232 Saying 'hello'
 DEBUG 2020-12-27 12:27:34,483 controller 9716 5188 Received command from CLI: 'drive'
 DEBUG 2020-12-27 12:27:37,835 controller 9716 5188 Received command from CLI: 'stop'
+INFO 2020-12-27 12:30:09,038 logging 3944 2172 Logger initialized
+INFO 2020-12-27 12:30:09,038 __main__ 3944 2172 Starting Subsystems
+INFO 2020-12-27 12:30:09,046 __main__ 3944 2172 Starting API
+INFO 2020-12-27 12:30:09,046 __main__ 3944 2172 Starting Voice Controller
+INFO 2020-12-27 12:30:09,047 __main__ 3944 2172 Starting CLI
+DEBUG 2020-12-27 12:30:11,984 controller 3944 2172 Received command from CLI: 'say'
+DEBUG 2020-12-27 12:30:11,987 talker 3944 14556 Saying 'hello'
+DEBUG 2020-12-27 12:30:15,240 controller 3944 2172 Received command from CLI: 'drive'
+DEBUG 2020-12-27 12:30:19,192 controller 3944 2172 Received command from CLI: 'stop'

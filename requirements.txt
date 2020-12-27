@@ -8,3 +8,4 @@ pocketsphinx
 pyaudio
 gtts
 pyglet
+RPi.GPIO

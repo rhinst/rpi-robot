@@ -27,7 +27,7 @@ class Talker(Subsystem):
     def say(self, phrase):
         logger.debug("Saying '%s'", phrase)
         tts = gTTS(phrase)
-        f = TemporaryFile(mode='wb', delete=False)
+        f = TemporaryFile(mode="wb", delete=False)
         tts.write_to_fp(f)
         player = Player()
         f = open(f.name, mode="rb")
