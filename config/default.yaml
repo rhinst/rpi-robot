@@ -21,10 +21,10 @@ logging:
       handlers:
         - file
         - console
-redis:
+message_bus:
   host: "localhost"
   port: 6379
-plugins:
+subsystems:
   listening:
     engine:
       name: "sphinx"
