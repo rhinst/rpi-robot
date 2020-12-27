@@ -32,3 +32,17 @@ subsystems:
         language: "en-US"
     microphone:
       device_name: "default"
+  motor:
+    gpio_pins:
+      front_left:
+        direction: 12
+        speed: 13
+      front_right:
+        direction: 14
+        speed: 15
+      rear_left:
+        direction: 16
+        speed: 17
+      rear_right:
+        direction: 18
+        speed: 19

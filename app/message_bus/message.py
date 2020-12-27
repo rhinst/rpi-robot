@@ -34,7 +34,9 @@ class MessageFactory:
         command = command_parts[0].decode("utf-8")
         arguments = [argument.decode("utf-8") for argument in command_parts[1:]]
         return CommandMessage(
-            channel=redis_msg["channel"].decode("utf-8"), command=command, arguments=arguments
+            channel=redis_msg["channel"].decode("utf-8"),
+            command=command,
+            arguments=arguments,
         )
 
     @staticmethod
@@ -43,4 +45,6 @@ class MessageFactory:
         try:
             return message_handlers[redis_msg["channel"].decode("utf-8")](redis_msg)
         except KeyError:
-            return GenericMessage(channel=redis_msg["channel"].decode("utf-8"), data=redis_msg["data"])
+            return GenericMessage(
+                channel=redis_msg["channel"].decode("utf-8"), data=redis_msg["data"]
+            )
