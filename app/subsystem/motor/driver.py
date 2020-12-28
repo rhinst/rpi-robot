@@ -1,12 +1,11 @@
 from dataclasses import dataclass
 from enum import Enum
 
-import RPi.GPIO as GPIO
-
 from app.subsystem import Subsystem
 from app.command import Command, Argument
 from app.message_bus.connection import Connection
 from app.message_bus.message import CommandMessage
+from app.subsystem.GPIO import GPIO
 
 
 class MotorDirection(Enum):
