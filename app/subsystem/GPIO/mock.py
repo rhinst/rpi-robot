@@ -6,23 +6,27 @@ HIGH = 1
 
 
 def setmode(a):
-    print(a)
+    pass
 
 
 def setup(a, b):
-    print(a)
+    pass
+
+
+def input(a):
+    pass
 
 
 def output(a, b):
-    print(a)
+    pass
 
 
 def cleanup():
-    print("a")
+    pass
 
 
 def setwarnings(flag):
-    print("False")
+    pass
 
 
 class PWM:
