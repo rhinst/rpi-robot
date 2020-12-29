@@ -6,7 +6,7 @@ from app.controller import CliController, VoiceController
 from app.message_bus import ConnectionPool
 from app.subsystem.speech.talker import Talker
 from app.subsystem.motor.driver import Driver, MotorPins
-from app.subsystem.sonar.sonar import Sonar
+from app.subsystem.sonar import Sonar
 
 def main():
     env = os.getenv("ENVIRONMENT", "dev")
