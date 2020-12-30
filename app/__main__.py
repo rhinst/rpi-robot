@@ -4,7 +4,7 @@ import threading
 from app.logging import initialize_logger, logger
 from app.config import load_config
 from app.api import start_api
-from app.controller.cli import CliController
+from app.controller.cli.controller import start_cli_controller
 from app.controller.voice.controller import start_voice_controller
 from app.message_bus import ConnectionPool
 from app.subsystem.speech.talker import Talker
@@ -43,7 +43,7 @@ def main():
     voice = threading.Thread(target=start_voice_controller, args=(pool.get_connection(),))
     voice.start()
     logger.info("Starting CLI")
-    cli = CliController(pool.get_connection())
+    cli = threading.Thread(target=start_cli_controller, args=(pool.get_connection,))
     cli.start()
 
 
