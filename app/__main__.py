@@ -23,18 +23,38 @@ def main():
     speech_subsystem = Talker(message_bus=pool.get_connection())
     speech_subsystem.start()
     pins = MotorPins(
-        front_left_dir=config["motor"]["gpio_pins"]["front_left"]["direction"],
-        front_left_speed=config["motor"]["gpio_pins"]["front_left"]["speed"],
-        front_right_dir=config["motor"]["gpio_pins"]["front_right"]["direction"],
-        front_right_speed=config["motor"]["gpio_pins"]["front_right"]["speed"],
-        rear_left_dir=config["motor"]["gpio_pins"]["rear_left"]["direction"],
-        rear_left_speed=config["motor"]["gpio_pins"]["rear_left"]["speed"],
-        rear_right_dir=config["motor"]["gpio_pins"]["rear_right"]["direction"],
-        rear_right_speed=config["motor"]["gpio_pins"]["rear_right"]["speed"],
+        front_left_dir=config["subsystems"]["motor"]["gpio_pins"]["front_left"][
+            "direction"
+        ],
+        front_left_speed=config["subsystems"]["motor"]["gpio_pins"]["front_left"][
+            "speed"
+        ],
+        front_right_dir=config["subsystems"]["motor"]["gpio_pins"]["front_right"][
+            "direction"
+        ],
+        front_right_speed=config["subsystems"]["motor"]["gpio_pins"]["front_right"][
+            "speed"
+        ],
+        rear_left_dir=config["subsystems"]["motor"]["gpio_pins"]["rear_left"][
+            "direction"
+        ],
+        rear_left_speed=config["subsystems"]["motor"]["gpio_pins"]["rear_left"][
+            "speed"
+        ],
+        rear_right_dir=config["subsystems"]["motor"]["gpio_pins"]["rear_right"][
+            "direction"
+        ],
+        rear_right_speed=config["subsystems"]["motor"]["gpio_pins"]["rear_right"][
+            "speed"
+        ],
     )
     motor_subsystem = Driver(pool.get_connection(), pins)
     motor_subsystem.start()
-    sonar_subsystem = Sonar(pool.get_connection())
+    sonar_subsystem = Sonar(
+        pool.get_connection(),
+        config["subsystems"]["sonar"]["trigger_pin"],
+        config["subsystems"]["sonar"]["echo_pin"],
+    )
     sonar_subsystem.start()
     logger.info("Starting API")
     api = threading.Thread(target=start_api, args=(pool.get_connection(),))

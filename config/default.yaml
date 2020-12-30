@@ -32,6 +32,9 @@ subsystems:
         language: "en-US"
     microphone:
       device_name: "default"
+  sonar:
+    trigger_pin: 20
+    echo_pin: 21
   motor:
     gpio_pins:
       front_left:
