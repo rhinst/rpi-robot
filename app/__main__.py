@@ -1,8 +1,11 @@
 import os
+import threading
+
 from app.logging import initialize_logger, logger
 from app.config import load_config
 from app.api import Api
-from app.controller import CliController, VoiceController
+from app.controller.cli import CliController
+from app.controller.voice.controller import start_voice_controller
 from app.message_bus import ConnectionPool
 from app.subsystem.speech.talker import Talker
 from app.subsystem.motor.driver import Driver, MotorPins
@@ -37,7 +40,7 @@ def main():
     api = Api(pool.get_connection())
     api.start()
     logger.info("Starting Voice Controller")
-    voice = VoiceController(pool.get_connection())
+    voice = threading.Thread(target=start_voice_controller, args=(pool.get_connection(),))
     voice.start()
     logger.info("Starting CLI")
     cli = CliController(pool.get_connection())

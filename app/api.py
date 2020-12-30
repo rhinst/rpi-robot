@@ -1,5 +1,6 @@
 from time import sleep
 from threading import Thread
+from itertools import cycle
 
 from app.message_bus import Connection
 
@@ -12,5 +13,5 @@ class Api(Thread):
         self.message_bus = message_bus
 
     def run(self):
-        while True:
+        while cycle([True]):
             sleep(0.001)

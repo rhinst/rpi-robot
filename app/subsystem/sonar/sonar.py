@@ -1,4 +1,5 @@
 import time
+from itertools import cycle
 
 from app.subsystem import Subsystem
 from app.message_bus.connection import Connection
@@ -42,7 +43,7 @@ class Sonar(Subsystem):
         GPIO.output(self.trigger_pin, GPIO.LOW)
         # wait for sensor to settle
         time.sleep(2)
-        while True:
+        while cycle([True]):
             self.measure_distance()
 
     def cleanup(self):
