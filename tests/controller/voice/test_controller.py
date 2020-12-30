@@ -15,4 +15,3 @@ def test_main_loop():
         except StopIteration:
             pass
     m_cycle.assert_called()
-
