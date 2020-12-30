@@ -6,14 +6,21 @@ from app.controller.cli.controller import start_cli_controller, process_input
 from app.message_bus.message import CommandMessage
 
 
-@pytest.mark.parametrize("command,arguments", [
-    ("drive", ["the", "bus"]),
-    ("say", ["\"goodnight Gracie\""]),
-    ("reboot", []),
-])
+@pytest.mark.parametrize(
+    "command,arguments",
+    [
+        ("drive", ["the", "bus"]),
+        ("say", ['"goodnight Gracie"']),
+        ("reboot", []),
+    ],
+)
 def test_process_input(command, arguments):
     msg = process_input(" ".join([command] + arguments))
-    assert msg == CommandMessage(channel="core.command", command=command, arguments=[argument.replace("\"", "") for argument in arguments])
+    assert msg == CommandMessage(
+        channel="core.command",
+        command=command,
+        arguments=[argument.replace('"', "") for argument in arguments],
+    )
 
 
 def test_main_loop():

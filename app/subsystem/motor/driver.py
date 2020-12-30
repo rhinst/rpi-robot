@@ -37,28 +37,12 @@ class Driver(Subsystem):
     fr_pwm: GPIO.PWM
     rl_pwm: GPIO.PWM
     rr_pwm: GPIO.PWM
+    initialized: bool
 
     def __init__(self, message_bus: Connection, pins: MotorPins):
         super().__init__(message_bus)
         self.pins = pins
-        GPIO.setmode(GPIO.BOARD)
-        GPIO.setup(
-            [
-                pins.front_left_dir,
-                pins.front_left_speed,
-                pins.front_right_dir,
-                pins.front_right_speed,
-                pins.rear_left_dir,
-                pins.rear_left_speed,
-                pins.rear_right_dir,
-                pins.rear_right_speed,
-            ],
-            GPIO.OUT,
-        )
-        self.fl_pwm = GPIO.PWM(pins.front_left_speed, 1000)
-        self.fr_pwm = GPIO.PWM(pins.front_right_speed, 1000)
-        self.rl_pwm = GPIO.PWM(pins.rear_left_speed, 1000)
-        self.rr_pwm = GPIO.PWM(pins.rear_right_speed, 1000)
+        self.initialized = False
 
     def register_commands(self):
         return [
@@ -127,3 +111,27 @@ class Driver(Subsystem):
         self.fr_pwm.stop()
         self.rl_pwm.stop()
         self.rr_pwm.stop()
+
+    def initialize(self):
+        GPIO.setmode(GPIO.BOARD)
+        GPIO.setup(
+            [
+                self.pins.front_left_dir,
+                self.pins.front_left_speed,
+                self.pins.front_right_dir,
+                self.pins.front_right_speed,
+                self.pins.rear_left_dir,
+                self.pins.rear_left_speed,
+                self.pins.rear_right_dir,
+                self.pins.rear_right_speed,
+            ],
+            GPIO.OUT,
+        )
+        self.fl_pwm = GPIO.PWM(self.pins.front_left_speed, 1000)
+        self.fr_pwm = GPIO.PWM(self.pins.front_right_speed, 1000)
+        self.rl_pwm = GPIO.PWM(self.pins.rear_left_speed, 1000)
+        self.rr_pwm = GPIO.PWM(self.pins.rear_right_speed, 1000)
+
+    def run(self):
+        self.initialize()
+        super().run()
