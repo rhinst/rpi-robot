@@ -8,6 +8,7 @@ from app.subsystem.speech.talker import Talker
 from app.subsystem.motor.driver import Driver, MotorPins
 from app.subsystem.sonar import Sonar
 
+
 def main():
     env = os.getenv("ENVIRONMENT", "dev")
     config = load_config(env)
@@ -19,14 +20,14 @@ def main():
     speech_subsystem = Talker(message_bus=pool.get_connection())
     speech_subsystem.start()
     pins = MotorPins(
-        front_left_dir=config['motor']['gpio_pins']['front_left']['direction'],
-        front_left_speed=config['motor']['gpio_pins']['front_left']['speed'],
-        front_right_dir=config['motor']['gpio_pins']['front_right']['direction'],
-        front_right_speed=config['motor']['gpio_pins']['front_right']['speed'],
-        rear_left_dir=config['motor']['gpio_pins']['rear_left']['direction'],
-        rear_left_speed=config['motor']['gpio_pins']['rear_left']['speed'],
-        rear_right_dir=config['motor']['gpio_pins']['rear_right']['direction'],
-        rear_right_speed=config['motor']['gpio_pins']['rear_right']['speed'],
+        front_left_dir=config["motor"]["gpio_pins"]["front_left"]["direction"],
+        front_left_speed=config["motor"]["gpio_pins"]["front_left"]["speed"],
+        front_right_dir=config["motor"]["gpio_pins"]["front_right"]["direction"],
+        front_right_speed=config["motor"]["gpio_pins"]["front_right"]["speed"],
+        rear_left_dir=config["motor"]["gpio_pins"]["rear_left"]["direction"],
+        rear_left_speed=config["motor"]["gpio_pins"]["rear_left"]["speed"],
+        rear_right_dir=config["motor"]["gpio_pins"]["rear_right"]["direction"],
+        rear_right_speed=config["motor"]["gpio_pins"]["rear_right"]["speed"],
     )
     motor_subsystem = Driver(pool.get_connection(), pins)
     motor_subsystem.start()

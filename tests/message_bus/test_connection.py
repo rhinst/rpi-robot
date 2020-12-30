@@ -49,10 +49,7 @@ def test_unsubscribe_multiple_channels():
 
 def test_publish():
     data = "This is a test"
-    message = GenericMessage(
-       channel="test.channel",
-       data=data
-    )
+    message = GenericMessage(channel="test.channel", data=data)
     m_redis = Mock()
     m_pubsub = Mock()
     connection = Connection(m_redis, m_pubsub)
@@ -65,7 +62,7 @@ def test_get_message():
         "pattern": None,
         "type": "message",
         "channel": "test.channel",
-        "data": "test data"
+        "data": "test data",
     }
     m_redis = Mock()
     m_pubsub = Mock()
@@ -73,14 +70,13 @@ def test_get_message():
     connection = Connection(m_redis, m_pubsub)
     with patch("app.message_bus.connection.MessageFactory") as m_msg_factory:
         m_msg_factory.from_redis_msg.return_value = GenericMessage(
-            channel=redis_msg['channel'],
-            data=redis_msg['data']
+            channel=redis_msg["channel"], data=redis_msg["data"]
         )
         message = connection.get_message()
     m_msg_factory.from_redis_msg.assert_called_once_with(redis_msg)
     assert type(message) == GenericMessage
-    assert message.channel == redis_msg['channel']
-    assert message.data == redis_msg['data']
+    assert message.channel == redis_msg["channel"]
+    assert message.data == redis_msg["data"]
 
 
 def test_get_message_none():

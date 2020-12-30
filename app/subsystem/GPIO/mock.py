@@ -30,7 +30,6 @@ def setwarnings(flag):
 
 
 class PWM:
-
     def __init__(self, pin: int, frequency: int):
         pass
 
