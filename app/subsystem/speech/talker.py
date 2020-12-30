@@ -1,5 +1,5 @@
 import os
-from tempfile import TemporaryFile
+from tempfile import NamedTemporaryFile
 from time import sleep
 
 from gtts import gTTS
@@ -27,7 +27,7 @@ class Talker(Subsystem):
     def say(self, phrase):
         logger.debug("Saying '%s'", phrase)
         tts = gTTS(phrase)
-        f = TemporaryFile(mode="wb", delete=False)
+        f = NamedTemporaryFile(mode="wb", delete=False)
         tts.write_to_fp(f)
         player = Player()
         f = open(f.name, mode="rb")
