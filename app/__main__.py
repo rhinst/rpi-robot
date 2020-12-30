@@ -3,7 +3,7 @@ import threading
 
 from app.logging import initialize_logger, logger
 from app.config import load_config
-from app.api import Api
+from app.api import start_api
 from app.controller.cli import CliController
 from app.controller.voice.controller import start_voice_controller
 from app.message_bus import ConnectionPool
@@ -37,7 +37,7 @@ def main():
     sonar_subsystem = Sonar(pool.get_connection())
     sonar_subsystem.start()
     logger.info("Starting API")
-    api = Api(pool.get_connection())
+    api = threading.Thread(target=start_api, args=(pool.get_connection(),))
     api.start()
     logger.info("Starting Voice Controller")
     voice = threading.Thread(target=start_voice_controller, args=(pool.get_connection(),))
