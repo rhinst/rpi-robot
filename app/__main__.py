@@ -65,7 +65,7 @@ def main():
     )
     voice.start()
     logger.info("Starting CLI")
-    cli = threading.Thread(target=start_cli_controller, args=(pool.get_connection,))
+    cli = threading.Thread(target=start_cli_controller, args=(pool.get_connection(),))
     cli.start()
 
 
