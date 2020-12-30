@@ -40,7 +40,9 @@ def main():
     api = threading.Thread(target=start_api, args=(pool.get_connection(),))
     api.start()
     logger.info("Starting Voice Controller")
-    voice = threading.Thread(target=start_voice_controller, args=(pool.get_connection(),))
+    voice = threading.Thread(
+        target=start_voice_controller, args=(pool.get_connection(),)
+    )
     voice.start()
     logger.info("Starting CLI")
     cli = threading.Thread(target=start_cli_controller, args=(pool.get_connection,))
