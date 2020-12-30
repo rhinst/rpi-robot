@@ -9,7 +9,6 @@ def get_microphone_index(device_name: str):
     try:
         return available_devices.index(device_name)
     except ValueError:
-        print(sr.Microphone.list_microphone_names())
         raise DeviceNotFoundException(f"Microphone named {device_name} not found")
 
 

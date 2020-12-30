@@ -7,7 +7,7 @@ class Message:
     channel: str
 
     def __repr__(self):
-        return None
+        return ""
 
 
 @dataclass

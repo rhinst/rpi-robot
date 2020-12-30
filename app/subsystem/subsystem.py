@@ -9,9 +9,11 @@ from app.command import Command
 class Subsystem(Thread):
     message_bus: Connection
     commands: Dict[str, Command]
+    _terminate_thread: bool
 
     def __init__(self, message_bus: Connection):
         super().__init__()
+        self._terminate_thread = False
         self.message_bus = message_bus
         self.commands = {}
         for command in self.register_commands():
@@ -28,8 +30,15 @@ class Subsystem(Thread):
 
     def run(self):
         message_processors = {"core.command": self.process_command}
-        while True:
+        while not self._terminate_thread:
             msg = self.message_bus.get_message()
             if msg:
                 message_processors[msg.channel](msg)
             sleep(0.001)
+        self.cleanup()
+
+    def cleanup(self):
+        pass
+
+    def terminate(self):
+        self._terminate_thread = True

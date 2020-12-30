@@ -1,4 +1,5 @@
 from time import sleep
+from itertools import cycle
 
 import speech_recognition as sr
 
@@ -22,7 +23,7 @@ class Listener(Subsystem):
         return self.engine.record(source=self.mic, duration=duration)
 
     def listen_for_phrase(self) -> str:
-        while True:
+        while cycle([True]):
             try:
                 logger.debug("Listening for a phrase")
                 self.engine.adjust_for_ambient_noise(self.mic)
@@ -34,7 +35,7 @@ class Listener(Subsystem):
                 logger.debug("Timed out waiting for speech input")
 
     def wait_for_wake_word(self, wake_word: str):
-        while True:
+        while cycle([True]):
             phrase = self.listen_for_phrase()
             if phrase.lower() == wake_word.lower():
                 break
